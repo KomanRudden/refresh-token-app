@@ -1,0 +1,329 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:2:1-44:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/koman/.gradle/caches/transforms-3/b56955eb969a0e885b3ce0d488b63f1d/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/koman/.gradle/caches/transforms-3/d822b9c534bac728fcc20ca4985f53ba/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.7.0] /home/koman/.gradle/caches/transforms-3/a713dc42a38c680758aac6bc59b518b4/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/koman/.gradle/caches/transforms-3/163a0959f4a64bd4c23306ff34b3f085/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/koman/.gradle/caches/transforms-3/08ed00225779ba3c9c822f4dcbbf0abb/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/koman/.gradle/caches/transforms-3/de6186ef3910f20441991dcd28c83955/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/koman/.gradle/caches/transforms-3/3f5e55c40754ff0dc4ead64c47ffc5a2/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/koman/.gradle/caches/transforms-3/cc38551c28bf0d7b2619251b0ab23fc4/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /home/koman/.gradle/caches/transforms-3/029441e436819574b7b150afb592e956/transformed/jetified-activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/koman/.gradle/caches/transforms-3/11d13fabf97687697d805a2727ec383d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/koman/.gradle/caches/transforms-3/2d452a3b99cb6f75082227d8578769b8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/koman/.gradle/caches/transforms-3/a1da4a9b9a6f18e00a865a6eb7f8e8af/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/koman/.gradle/caches/transforms-3/1e144fa6876a36c8da0df8937cbfa4e7/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/koman/.gradle/caches/transforms-3/106c3e5237e4bd3bd23af95f22eb1ed0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /home/koman/.gradle/caches/transforms-3/04016bfab062f53c61eacf9f2c402da0/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/koman/.gradle/caches/transforms-3/5cf0254aa4b6027124cba3fe32f09510/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/koman/.gradle/caches/transforms-3/fb2cb158571959858806ba7ae4c9731b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/koman/.gradle/caches/transforms-3/01a630d2332d085ce3657475e6411f1d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/koman/.gradle/caches/transforms-3/734415737c1ca21391e3a33d2b4e13e3/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/koman/.gradle/caches/transforms-3/2f154507aba0c65ac6655efa4f847105/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/koman/.gradle/caches/transforms-3/7de838fc77a938129ff7b97de25836f3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/koman/.gradle/caches/transforms-3/c65a52495ed93728efa0e4e4b2bea8ac/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/koman/.gradle/caches/transforms-3/634306da4b2037275a6be8c50f29bd66/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/koman/.gradle/caches/transforms-3/c26112adac9b2e4058418486e4563124/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/koman/.gradle/caches/transforms-3/dda87eab759b0f87f37d982252b1e17c/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/koman/.gradle/caches/transforms-3/da1ab15f4a66bfca0a49c23b35b64726/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/koman/.gradle/caches/transforms-3/d3d6fae8acf505231eb0fed636b0fb2c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/koman/.gradle/caches/transforms-3/72d7d944c8936ee0eafd588a418f6ba6/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/koman/.gradle/caches/transforms-3/ddbcc699d4b484c68427231ac32d4e43/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/koman/.gradle/caches/transforms-3/76c4a5a0ce3095766c2a1ac69bc812af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/koman/.gradle/caches/transforms-3/20dfaa12e4a87afe6ac834549bd47b1c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/koman/.gradle/caches/transforms-3/f3ce5c7c1e35975aeb8fc41d9a00871a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/koman/.gradle/caches/transforms-3/dad2a2c7a68da1e790c4cf830dad7213/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/koman/.gradle/caches/transforms-3/cf09998810bf59370d39f562ee4ae6ea/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/koman/.gradle/caches/transforms-3/6d994c2c0af4d79504fcc4fadf582a3b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/koman/.gradle/caches/transforms-3/db53e840a89cf6fe82a7642f15f450b4/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/koman/.gradle/caches/transforms-3/7c5ef7e3684a02ef2523d18694cf7fe4/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/koman/.gradle/caches/transforms-3/a5c3bfa8a5f5f8d01faf3109fd5856ab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/koman/.gradle/caches/transforms-3/ae6bdaf5cce4e90a800cf4be70e37952/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/koman/.gradle/caches/transforms-3/cf06be54db8bd26c9c558557848c4fbd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:10:5-67
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:6:5-42:19
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:22:5-42:19
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.android.material:material:1.7.0] /home/koman/.gradle/caches/transforms-3/a713dc42a38c680758aac6bc59b518b4/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] /home/koman/.gradle/caches/transforms-3/a713dc42a38c680758aac6bc59b518b4/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/koman/.gradle/caches/transforms-3/163a0959f4a64bd4c23306ff34b3f085/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/koman/.gradle/caches/transforms-3/163a0959f4a64bd4c23306ff34b3f085/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/koman/.gradle/caches/transforms-3/76c4a5a0ce3095766c2a1ac69bc812af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/koman/.gradle/caches/transforms-3/76c4a5a0ce3095766c2a1ac69bc812af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/koman/.gradle/caches/transforms-3/f3ce5c7c1e35975aeb8fc41d9a00871a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/koman/.gradle/caches/transforms-3/f3ce5c7c1e35975aeb8fc41d9a00871a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:11:9-53
+meta-data#au.kinde.domain
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:13:9-15:47
+	android:value
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:15:13-44
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:14:13-43
+meta-data#au.kinde.clientId
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:16:9-18:64
+	android:value
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:18:13-61
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:17:13-45
+activity#com.kinde.refreshtokenapp.MainActivity
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:20:9-28:20
+	android:launchMode
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:23:13-44
+	android:exported
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:21:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:26:27-74
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:30:9-41:20
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:23:9-35:20
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:23:9-35:20
+	tools:node
+		ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:26:13-33
+	android:exported
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:31:13-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:koman.kinde.com+data:scheme:kinde.sdk
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:33:13-40:29
+action#android.intent.action.VIEW
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:35:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:36:27-75
+data
+ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:37:17-39:50
+	android:host
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:38:21-51
+	android:scheme
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:39:21-47
+uses-sdk
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:6:5-8:41
+MERGED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/koman/.gradle/caches/transforms-3/b56955eb969a0e885b3ce0d488b63f1d/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/koman/.gradle/caches/transforms-3/b56955eb969a0e885b3ce0d488b63f1d/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/koman/.gradle/caches/transforms-3/d822b9c534bac728fcc20ca4985f53ba/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/koman/.gradle/caches/transforms-3/d822b9c534bac728fcc20ca4985f53ba/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /home/koman/.gradle/caches/transforms-3/a713dc42a38c680758aac6bc59b518b4/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /home/koman/.gradle/caches/transforms-3/a713dc42a38c680758aac6bc59b518b4/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/koman/.gradle/caches/transforms-3/163a0959f4a64bd4c23306ff34b3f085/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/koman/.gradle/caches/transforms-3/163a0959f4a64bd4c23306ff34b3f085/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/koman/.gradle/caches/transforms-3/08ed00225779ba3c9c822f4dcbbf0abb/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/koman/.gradle/caches/transforms-3/08ed00225779ba3c9c822f4dcbbf0abb/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/koman/.gradle/caches/transforms-3/de6186ef3910f20441991dcd28c83955/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/koman/.gradle/caches/transforms-3/de6186ef3910f20441991dcd28c83955/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/koman/.gradle/caches/transforms-3/3f5e55c40754ff0dc4ead64c47ffc5a2/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/koman/.gradle/caches/transforms-3/3f5e55c40754ff0dc4ead64c47ffc5a2/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/koman/.gradle/caches/transforms-3/cc38551c28bf0d7b2619251b0ab23fc4/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/koman/.gradle/caches/transforms-3/cc38551c28bf0d7b2619251b0ab23fc4/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /home/koman/.gradle/caches/transforms-3/029441e436819574b7b150afb592e956/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /home/koman/.gradle/caches/transforms-3/029441e436819574b7b150afb592e956/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/koman/.gradle/caches/transforms-3/11d13fabf97687697d805a2727ec383d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/koman/.gradle/caches/transforms-3/11d13fabf97687697d805a2727ec383d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/koman/.gradle/caches/transforms-3/2d452a3b99cb6f75082227d8578769b8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/koman/.gradle/caches/transforms-3/2d452a3b99cb6f75082227d8578769b8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/koman/.gradle/caches/transforms-3/a1da4a9b9a6f18e00a865a6eb7f8e8af/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/koman/.gradle/caches/transforms-3/a1da4a9b9a6f18e00a865a6eb7f8e8af/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/koman/.gradle/caches/transforms-3/1e144fa6876a36c8da0df8937cbfa4e7/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/koman/.gradle/caches/transforms-3/1e144fa6876a36c8da0df8937cbfa4e7/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/koman/.gradle/caches/transforms-3/106c3e5237e4bd3bd23af95f22eb1ed0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/koman/.gradle/caches/transforms-3/106c3e5237e4bd3bd23af95f22eb1ed0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/koman/.gradle/caches/transforms-3/04016bfab062f53c61eacf9f2c402da0/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/koman/.gradle/caches/transforms-3/04016bfab062f53c61eacf9f2c402da0/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/koman/.gradle/caches/transforms-3/5cf0254aa4b6027124cba3fe32f09510/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/koman/.gradle/caches/transforms-3/5cf0254aa4b6027124cba3fe32f09510/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/koman/.gradle/caches/transforms-3/fb2cb158571959858806ba7ae4c9731b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/koman/.gradle/caches/transforms-3/fb2cb158571959858806ba7ae4c9731b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/koman/.gradle/caches/transforms-3/01a630d2332d085ce3657475e6411f1d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/koman/.gradle/caches/transforms-3/01a630d2332d085ce3657475e6411f1d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/koman/.gradle/caches/transforms-3/734415737c1ca21391e3a33d2b4e13e3/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/koman/.gradle/caches/transforms-3/734415737c1ca21391e3a33d2b4e13e3/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/koman/.gradle/caches/transforms-3/2f154507aba0c65ac6655efa4f847105/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/koman/.gradle/caches/transforms-3/2f154507aba0c65ac6655efa4f847105/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/koman/.gradle/caches/transforms-3/7de838fc77a938129ff7b97de25836f3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/koman/.gradle/caches/transforms-3/7de838fc77a938129ff7b97de25836f3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/koman/.gradle/caches/transforms-3/c65a52495ed93728efa0e4e4b2bea8ac/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/koman/.gradle/caches/transforms-3/c65a52495ed93728efa0e4e4b2bea8ac/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/koman/.gradle/caches/transforms-3/634306da4b2037275a6be8c50f29bd66/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/koman/.gradle/caches/transforms-3/634306da4b2037275a6be8c50f29bd66/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/koman/.gradle/caches/transforms-3/c26112adac9b2e4058418486e4563124/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/koman/.gradle/caches/transforms-3/c26112adac9b2e4058418486e4563124/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/koman/.gradle/caches/transforms-3/dda87eab759b0f87f37d982252b1e17c/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/koman/.gradle/caches/transforms-3/dda87eab759b0f87f37d982252b1e17c/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/koman/.gradle/caches/transforms-3/da1ab15f4a66bfca0a49c23b35b64726/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/koman/.gradle/caches/transforms-3/da1ab15f4a66bfca0a49c23b35b64726/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/koman/.gradle/caches/transforms-3/d3d6fae8acf505231eb0fed636b0fb2c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/koman/.gradle/caches/transforms-3/d3d6fae8acf505231eb0fed636b0fb2c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/koman/.gradle/caches/transforms-3/72d7d944c8936ee0eafd588a418f6ba6/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/koman/.gradle/caches/transforms-3/72d7d944c8936ee0eafd588a418f6ba6/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/koman/.gradle/caches/transforms-3/ddbcc699d4b484c68427231ac32d4e43/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/koman/.gradle/caches/transforms-3/ddbcc699d4b484c68427231ac32d4e43/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/koman/.gradle/caches/transforms-3/76c4a5a0ce3095766c2a1ac69bc812af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/koman/.gradle/caches/transforms-3/76c4a5a0ce3095766c2a1ac69bc812af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/koman/.gradle/caches/transforms-3/20dfaa12e4a87afe6ac834549bd47b1c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/koman/.gradle/caches/transforms-3/20dfaa12e4a87afe6ac834549bd47b1c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/koman/.gradle/caches/transforms-3/f3ce5c7c1e35975aeb8fc41d9a00871a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/koman/.gradle/caches/transforms-3/f3ce5c7c1e35975aeb8fc41d9a00871a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/koman/.gradle/caches/transforms-3/dad2a2c7a68da1e790c4cf830dad7213/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/koman/.gradle/caches/transforms-3/dad2a2c7a68da1e790c4cf830dad7213/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/koman/.gradle/caches/transforms-3/cf09998810bf59370d39f562ee4ae6ea/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/koman/.gradle/caches/transforms-3/cf09998810bf59370d39f562ee4ae6ea/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/koman/.gradle/caches/transforms-3/6d994c2c0af4d79504fcc4fadf582a3b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/koman/.gradle/caches/transforms-3/6d994c2c0af4d79504fcc4fadf582a3b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/koman/.gradle/caches/transforms-3/db53e840a89cf6fe82a7642f15f450b4/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/koman/.gradle/caches/transforms-3/db53e840a89cf6fe82a7642f15f450b4/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/koman/.gradle/caches/transforms-3/7c5ef7e3684a02ef2523d18694cf7fe4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/koman/.gradle/caches/transforms-3/7c5ef7e3684a02ef2523d18694cf7fe4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/koman/.gradle/caches/transforms-3/a5c3bfa8a5f5f8d01faf3109fd5856ab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/koman/.gradle/caches/transforms-3/a5c3bfa8a5f5f8d01faf3109fd5856ab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/koman/.gradle/caches/transforms-3/ae6bdaf5cce4e90a800cf4be70e37952/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/koman/.gradle/caches/transforms-3/ae6bdaf5cce4e90a800cf4be70e37952/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/koman/.gradle/caches/transforms-3/cf06be54db8bd26c9c558557848c4fbd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/koman/.gradle/caches/transforms-3/cf06be54db8bd26c9c558557848c4fbd/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+queries
+ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:12:5-20:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:13:9-19:18
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:kinde.sdk
+ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:27:13-34:29
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:36:9-41:77
+	android:launchMode
+		ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:40:13-44
+	android:exported
+		ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:39:13-37
+	android:configChanges
+		ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:38:13-115
+	android:theme
+		ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:41:13-74
+	android:name
+		ADDED from [kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:37:13-78
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/koman/.gradle/caches/transforms-3/f3ce5c7c1e35975aeb8fc41d9a00871a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/koman/.gradle/caches/transforms-3/f3ce5c7c1e35975aeb8fc41d9a00871a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.kinde.refreshtokenapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.kinde.refreshtokenapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
