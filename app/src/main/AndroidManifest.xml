@@ -12,10 +12,10 @@
         
         <meta-data
             android:name="au.kinde.domain"
-            android:value="koman.kinde.com" />
+            android:value="<domain>>.kinde.com" />
         <meta-data
             android:name="au.kinde.clientId"
-            android:value="e9fd8f12f583420c93fd027d842b1873" />
+            android:value="<client-id>" />
 
         <activity
             android:name=".MainActivity"
