@@ -25,6 +25,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView countdownText;
 
   @NonNull
+  public final Button goToSecondActivityButton;
+
+  @NonNull
   public final TextView logText;
 
   @NonNull
@@ -40,10 +43,12 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView statusText;
 
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull TextView countdownText,
-      @NonNull TextView logText, @NonNull Button loginButton, @NonNull Button logoutButton,
-      @NonNull ScrollView scrollView, @NonNull TextView statusText) {
+      @NonNull Button goToSecondActivityButton, @NonNull TextView logText,
+      @NonNull Button loginButton, @NonNull Button logoutButton, @NonNull ScrollView scrollView,
+      @NonNull TextView statusText) {
     this.rootView = rootView;
     this.countdownText = countdownText;
+    this.goToSecondActivityButton = goToSecondActivityButton;
     this.logText = logText;
     this.loginButton = loginButton;
     this.logoutButton = logoutButton;
@@ -84,6 +89,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.goToSecondActivityButton;
+      Button goToSecondActivityButton = ViewBindings.findChildViewById(rootView, id);
+      if (goToSecondActivityButton == null) {
+        break missingId;
+      }
+
       id = R.id.logText;
       TextView logText = ViewBindings.findChildViewById(rootView, id);
       if (logText == null) {
@@ -114,8 +125,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, countdownText, logText, loginButton,
-          logoutButton, scrollView, statusText);
+      return new ActivityMainBinding((LinearLayout) rootView, countdownText,
+          goToSecondActivityButton, logText, loginButton, logoutButton, scrollView, statusText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

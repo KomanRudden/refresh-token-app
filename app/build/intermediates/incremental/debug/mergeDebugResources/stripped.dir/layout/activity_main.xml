@@ -6,11 +6,20 @@
     android:padding="16dp">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTIVITY 1 - Multi-Activity Auth Test"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
         android:id="@+id/statusText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Status: Not Authenticated"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         android:padding="8dp"
         android:background="#E0E0E0"
@@ -39,6 +48,14 @@
             android:text="Logout"
             android:enabled="false" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/goToSecondActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➡ Go to Activity 2 (Test Multi-Activity)"
+        android:backgroundTint="?attr/colorSecondary"
+        android:layout_marginBottom="16dp" />
 
     <TextView
         android:id="@+id/countdownText"

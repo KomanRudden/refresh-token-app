@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity(), SDKListener {
     private lateinit var kindeSDK: KindeSDK
     private lateinit var loginButton: Button
     private lateinit var logoutButton: Button
+    private lateinit var goToSecondActivityButton: Button
     private lateinit var statusText: TextView
     private lateinit var countdownText: TextView
     private lateinit var logText: TextView
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity(), SDKListener {
         // Initialize views
         loginButton = findViewById(R.id.loginButton)
         logoutButton = findViewById(R.id.logoutButton)
+        goToSecondActivityButton = findViewById(R.id.goToSecondActivityButton)
         statusText = findViewById(R.id.statusText)
         countdownText = findViewById(R.id.countdownText)
         logText = findViewById(R.id.logText)
@@ -68,8 +70,32 @@ class MainActivity : AppCompatActivity(), SDKListener {
             kindeSDK.logout()
         }
 
+        goToSecondActivityButton.setOnClickListener {
+            logMessage("Navigating to SecondActivity...")
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+        }
+
         updateUI()
+        logMessage("=== MAIN ACTIVITY CREATED ===")
         logMessage("App started - SDK initialized")
+        logMessage("isAuthenticated on create: ${kindeSDK.isAuthenticated()}")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        logMessage("=== MainActivity onResume ===")
+        logMessage("Checking auth state after returning from other activity...")
+        
+        // The SDK's onResume will call refreshState() automatically
+        val isAuth = kindeSDK.isAuthenticated()
+        logMessage("isAuthenticated in onResume: $isAuth")
+        
+        if (isAuth) {
+            logMessage("✓ SUCCESS: MainActivity detected auth state from SecondActivity!")
+        }
+        
+        updateUI()
     }
 
     override fun onNewIntent(intent: Intent?) {

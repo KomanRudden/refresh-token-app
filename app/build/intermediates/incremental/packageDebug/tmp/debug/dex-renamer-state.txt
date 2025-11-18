@@ -1,12 +1,12 @@
-#Tue Nov 11 05:36:02 SAST 2025
+#Tue Nov 18 07:21:10 SAST 2025
 path.3=13/classes.dex
 path.2=11/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
-base.2=/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
-base.1=/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.3=/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+base.2=/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.1=/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

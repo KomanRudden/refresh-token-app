@@ -6,168 +6,176 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="33" />
-9-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml
+8-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:4:5-67
-11-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:4:22-64
+11-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:4:22-64
 12
 13    <queries>
-13-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:12:5-20:15
+13-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:12:5-20:15
 14        <intent>
-14-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:13:9-19:18
+14-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:13:9-19:18
 15            <action android:name="android.intent.action.VIEW" />
-15-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:34:17-69
-15-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:34:25-66
+15-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:39:17-69
+15-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:39:25-66
 16
 17            <category android:name="android.intent.category.BROWSABLE" />
-17-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:36:17-78
-17-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:36:27-75
+17-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:41:17-78
+17-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:41:27-75
 18
 19            <data android:scheme="https" />
-19-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:37:17-39:50
-19-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:39:21-47
+19-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:42:17-44:50
+19-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:44:21-47
 20        </intent>
 21    </queries>
 22
 23    <permission
-23-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+23-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/d5b3458752bdcdcccd338b59fb9c6eff/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 24        android:name="com.kinde.refreshtokenapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-24-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+24-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/d5b3458752bdcdcccd338b59fb9c6eff/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 25        android:protectionLevel="signature" />
-25-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+25-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/d5b3458752bdcdcccd338b59fb9c6eff/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 26
 27    <uses-permission android:name="com.kinde.refreshtokenapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-27-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-27-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+27-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/d5b3458752bdcdcccd338b59fb9c6eff/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/d5b3458752bdcdcccd338b59fb9c6eff/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 28
 29    <application
-29-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:6:5-42:19
+29-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:6:5-47:19
 30        android:allowBackup="true"
-30-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:7:9-35
+30-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:7:9-35
 31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-31-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/1039f62b8c4ad4dec1323f2e8d438a61/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+31-->[androidx.core:core:1.9.0] /home/koman/.gradle/caches/transforms-3/d5b3458752bdcdcccd338b59fb9c6eff/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 32        android:debuggable="true"
 33        android:icon="@mipmap/ic_launcher"
-33-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:8:9-43
+33-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:8:9-43
 34        android:label="@string/app_name"
-34-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:9:9-41
+34-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:9:9-41
 35        android:supportsRtl="true"
-35-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:10:9-35
+35-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:10:9-35
 36        android:theme="@style/Theme.RefreshTokenApp" >
-36-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:11:9-53
+36-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:11:9-53
 37        <meta-data
-37-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:13:9-15:47
+37-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:13:9-15:47
 38            android:name="au.kinde.domain"
-38-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:14:13-43
+38-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:14:13-43
 39            android:value="koman.kinde.com" />
-39-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:15:13-44
+39-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:15:13-44
 40        <meta-data
-40-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:16:9-18:64
+40-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:16:9-18:64
 41            android:name="au.kinde.clientId"
-41-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:17:13-45
+41-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:17:13-45
 42            android:value="e9fd8f12f583420c93fd027d842b1873" />
-42-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:18:13-61
+42-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:18:13-61
 43
 44        <activity
-44-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:20:9-28:20
+44-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:20:9-28:20
 45            android:name="com.kinde.refreshtokenapp.MainActivity"
-45-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:21:13-41
+45-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:21:13-41
 46            android:exported="true"
-46-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:22:13-36
+46-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:22:13-36
 47            android:launchMode="singleTask" >
-47-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:23:13-44
+47-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:23:13-44
 48            <intent-filter>
-48-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:24:13-27:29
+48-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:24:13-27:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:25:17-69
-49-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:25:25-66
+49-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:25:17-69
+49-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:25:25-66
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:26:17-77
-51-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:26:27-74
+51-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:26:17-77
+51-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:26:27-74
 52            </intent-filter>
 53        </activity>
 54        <activity
-54-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:30:9-41:20
-55            android:name="net.openid.appauth.RedirectUriReceiverActivity"
-55-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:31:13-74
-56            android:exported="true" >
-56-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:32:13-36
-57            <intent-filter>
-57-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:33:13-40:29
-58                <action android:name="android.intent.action.VIEW" />
-58-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:34:17-69
-58-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:34:25-66
-59
-60                <category android:name="android.intent.category.DEFAULT" />
-60-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:35:17-76
-60-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:35:27-73
-61                <category android:name="android.intent.category.BROWSABLE" />
-61-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:36:17-78
-61-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:36:27-75
-62
-63                <data
-63-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:37:17-39:50
-64                    android:host="koman.kinde.com"
-64-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:38:21-51
-65                    android:scheme="kinde.sdk" />
-65-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:39:21-47
-66            </intent-filter>
-67            <intent-filter>
-67-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:27:13-34:29
-68                <action android:name="android.intent.action.VIEW" />
-68-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:34:17-69
-68-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:34:25-66
-69
-70                <category android:name="android.intent.category.DEFAULT" />
-70-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:35:17-76
-70-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:35:27-73
-71                <category android:name="android.intent.category.BROWSABLE" />
-71-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:36:17-78
-71-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:36:27-75
-72
-73                <data android:scheme="kinde.sdk" />
-73-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:37:17-39:50
-73-->/home/koman/Projects/Kinde/kotlin/312-automatic-token-refresh/refresh-token-app/app/src/main/AndroidManifest.xml:39:21-47
-74            </intent-filter>
-75        </activity>
-76        <activity
-76-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:36:9-41:77
-77            android:name="net.openid.appauth.AuthorizationManagementActivity"
-77-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:37:13-78
-78            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden"
-78-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:38:13-115
-79            android:exported="false"
-79-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:39:13-37
-80            android:launchMode="singleTask"
-80-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:40:13-44
-81            android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar" />
-81-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/efe58c5a683eb3fde3973784c5c8e902/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:41:13-74
-82
-83        <provider
-83-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-84            android:name="androidx.startup.InitializationProvider"
-84-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-85            android:authorities="com.kinde.refreshtokenapp.androidx-startup"
-85-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-86            android:exported="false" >
-86-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-87            <meta-data
-87-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-88-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-89                android:value="androidx.startup" />
-89-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/121f40afc9e93085c6d89cba4d72289d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-90            <meta-data
-90-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-91-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-92                android:value="androidx.startup" />
-92-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/12640b5df0b59df25bcbb1ecf6002f7e/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-93        </provider>
-94    </application>
-95
-96</manifest>
+54-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:30:9-33:45
+55            android:name="com.kinde.refreshtokenapp.SecondActivity"
+55-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:31:13-43
+56            android:exported="false"
+56-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:32:13-37
+57            android:launchMode="standard" />
+57-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:33:13-42
+58        <activity
+58-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:35:9-46:20
+59            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+59-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:36:13-74
+60            android:exported="true" >
+60-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:37:13-36
+61            <intent-filter>
+61-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:38:13-45:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:39:17-69
+62-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:39:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:40:17-76
+64-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:40:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:41:17-78
+65-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:41:27-75
+66
+67                <data
+67-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:42:17-44:50
+68                    android:host="koman.kinde.com"
+68-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:43:21-51
+69                    android:scheme="kinde.sdk" />
+69-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:44:21-47
+70            </intent-filter>
+71            <intent-filter>
+71-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:27:13-34:29
+72                <action android:name="android.intent.action.VIEW" />
+72-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:39:17-69
+72-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:39:25-66
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:40:17-76
+74-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:40:27-73
+75                <category android:name="android.intent.category.BROWSABLE" />
+75-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:41:17-78
+75-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:41:27-75
+76
+77                <data android:scheme="kinde.sdk" />
+77-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:42:17-44:50
+77-->/home/koman/Projects/Kinde/kotlin/REVIEW_PR/kinde-sdk-android/testapp/app/src/main/AndroidManifest.xml:44:21-47
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:36:9-41:77
+81            android:name="net.openid.appauth.AuthorizationManagementActivity"
+81-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:37:13-78
+82            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden"
+82-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:38:13-115
+83            android:exported="false"
+83-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:39:13-37
+84            android:launchMode="singleTask"
+84-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:40:13-44
+85            android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar" />
+85-->[kinde-android-sdk-debug.aar] /home/koman/.gradle/caches/transforms-3/b91153c47dbd389f5d252605c3c243e1/transformed/jetified-kinde-android-sdk-debug/AndroidManifest.xml:41:13-74
+86
+87        <provider
+87-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/9f4efe95776bdfa5effb9d45f311b474/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/9f4efe95776bdfa5effb9d45f311b474/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+89            android:authorities="com.kinde.refreshtokenapp.androidx-startup"
+89-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/9f4efe95776bdfa5effb9d45f311b474/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+90            android:exported="false" >
+90-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/9f4efe95776bdfa5effb9d45f311b474/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+91            <meta-data
+91-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/9f4efe95776bdfa5effb9d45f311b474/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+92-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/9f4efe95776bdfa5effb9d45f311b474/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+93                android:value="androidx.startup" />
+93-->[androidx.emoji2:emoji2:1.2.0] /home/koman/.gradle/caches/transforms-3/9f4efe95776bdfa5effb9d45f311b474/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/403f32a440e5a065ab1e2c49b3130194/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/403f32a440e5a065ab1e2c49b3130194/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+96                android:value="androidx.startup" />
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/koman/.gradle/caches/transforms-3/403f32a440e5a065ab1e2c49b3130194/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+97        </provider>
+98    </application>
+99
+100</manifest>

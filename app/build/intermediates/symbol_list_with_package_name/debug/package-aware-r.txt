@@ -2723,6 +2723,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backButton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2841,6 +2842,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id goToSecondActivityButton
 id gone
 id graph
 id graph_wrap
@@ -3067,6 +3069,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id testResultText
 id text
 id text2
 id textEnd
@@ -3245,6 +3248,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_second
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

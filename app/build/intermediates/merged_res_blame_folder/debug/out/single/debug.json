@@ -22,5 +22,9 @@
     {
         "merged": "com.kinde.refreshtokenapp-merged_res-32:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "com.kinde.refreshtokenapp-main-34:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kinde.refreshtokenapp-merged_res-32:/layout_activity_second.xml.flat",
+        "source": "com.kinde.refreshtokenapp-main-34:/layout/activity_second.xml"
     }
 ]

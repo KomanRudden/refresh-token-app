@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.kinde.refreshtokenapp'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.kinde.refreshtokenapp"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -45,11 +45,12 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
     implementation 'androidx.browser:browser:1.4.0'
+    implementation 'androidx.appcompat:appcompat-resources:1.5.1'
     
-    // Use prebuilt Kinde SDK AAR
+    // Use prebuilt SDK AAR
     implementation files('libs/kinde-android-sdk-debug.aar')
     
-    // Dependencies required by Kinde SDK
+    // Dependencies required by SDK
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     
