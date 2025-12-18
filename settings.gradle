@@ -16,3 +16,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "RefreshTokenApp"
 include ':app'
+include ':sdk'
+project(':sdk').projectDir = new File('../kinde-sdk-android/sdk')

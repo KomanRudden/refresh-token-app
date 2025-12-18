@@ -20,6 +20,8 @@ import kotlin.concurrent.thread
 
 class MainActivity : AppCompatActivity(), SDKListener {
     private lateinit var kindeSDK: KindeSDK
+    private lateinit var domainInput: com.google.android.material.textfield.TextInputEditText
+    private lateinit var clientIdInput: com.google.android.material.textfield.TextInputEditText
     private lateinit var loginButton: Button
     private lateinit var logoutButton: Button
     private lateinit var statusText: TextView
@@ -41,6 +43,8 @@ class MainActivity : AppCompatActivity(), SDKListener {
         setContentView(R.layout.activity_main)
 
         // Initialize views
+        domainInput = findViewById(R.id.domainInput)
+        clientIdInput = findViewById(R.id.clientIdInput)
         loginButton = findViewById(R.id.loginButton)
         logoutButton = findViewById(R.id.logoutButton)
         statusText = findViewById(R.id.statusText)
@@ -48,18 +52,37 @@ class MainActivity : AppCompatActivity(), SDKListener {
         logText = findViewById(R.id.logText)
         scrollView = findViewById(R.id.scrollView)
 
-        // Initialize Kinde SDK
+        // Get initial domain for SDK initialization (required before STARTED state)
+        val initialDomain = domainInput.text.toString().trim().ifEmpty { "placeholder.kinde.com" }
+        
+        // Initialize SDK in onCreate (required for ActivityResultLauncher registration)
         kindeSDK = KindeSDK(
             activity = this,
-            loginRedirect = "kinde.sdk://koman.kinde.com",
-            logoutRedirect = "kinde.sdk://koman.kinde.com",
+            loginRedirect = "kinde.sdk://$initialDomain",
+            logoutRedirect = "kinde.sdk://$initialDomain",
             sdkListener = this
         )
 
         // Set up button listeners
         loginButton.setOnClickListener {
+            val domain = domainInput.text.toString().trim()
+            val clientId = clientIdInput.text.toString().trim()
+            
+            if (domain.isEmpty() || clientId.isEmpty()) {
+                logMessage("✗ Please enter both domain and client ID")
+                return@setOnClickListener
+            }
+            
             logMessage("Login button clicked")
-            kindeSDK.login(GrantType.PKCE)
+            logMessage("Domain: $domain")
+            logMessage("Client ID: $clientId")
+            
+            // Disable input fields during login
+            domainInput.isEnabled = false
+            clientIdInput.isEnabled = false
+            
+            // Pass domain and clientId to login method (overrides defaults)
+            kindeSDK.login(GrantType.PKCE, domain = domain, clientId = clientId)
         }
 
         logoutButton.setOnClickListener {
@@ -69,7 +92,8 @@ class MainActivity : AppCompatActivity(), SDKListener {
         }
 
         updateUI()
-        logMessage("App started - SDK initialized")
+        logMessage("App started")
+        logMessage("SDK initialized with domain: $initialDomain")
     }
 
     override fun onNewIntent(intent: Intent?) {
@@ -102,7 +126,14 @@ class MainActivity : AppCompatActivity(), SDKListener {
             stopPolling()
             if (::kindeSDK.isInitialized && !isLoggingOut) {
                 isLoggingOut = true
-                updateUI()
+                // Re-enable input fields after logout
+                domainInput.isEnabled = true
+                clientIdInput.isEnabled = true
+                // Force UI to logged-out state
+                loginButton.isEnabled = true
+                logoutButton.isEnabled = false
+                statusText.text = "Status: Not Authenticated"
+                countdownText.visibility = View.GONE
                 isLoggingOut = false
             }
         }

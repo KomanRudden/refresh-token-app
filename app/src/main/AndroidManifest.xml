@@ -34,9 +34,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data
-                    android:host="koman.kinde.com"
-                    android:scheme="kinde.sdk" />
+                <data android:scheme="kinde.sdk" />
             </intent-filter>
         </activity>
     </application>
