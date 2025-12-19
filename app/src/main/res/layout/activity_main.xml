@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:hint="Client ID"
             android:inputType="text"
-            android:text="e9fd8f12f583420c93fd027d842b1873" />
+            android:text="" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
