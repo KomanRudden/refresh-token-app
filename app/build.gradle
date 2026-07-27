@@ -5,14 +5,16 @@ plugins {
 
 android {
     namespace 'com.kinde.refreshtokenapp'
-    compileSdk 33
+    compileSdk compile_version
 
     defaultConfig {
         applicationId "com.kinde.refreshtokenapp"
-        minSdk 21
-        targetSdk 33
+        minSdk 23
+        targetSdk compile_version
         versionCode 1
         versionName "1.0"
+        
+        manifestPlaceholders = [appAuthRedirectScheme: 'kinde.sdk://']
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

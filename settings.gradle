@@ -4,6 +4,9 @@ pluginManagement {
         google()
         mavenCentral()
     }
+    plugins {
+        id 'com.gradleup.nmcp' version '1.0.3'
+    }
 }
 
 dependencyResolutionManagement {

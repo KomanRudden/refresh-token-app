@@ -14,6 +14,7 @@ import au.kinde.sdk.GrantType
 import au.kinde.sdk.KindeSDK
 import au.kinde.sdk.SDKListener
 import au.kinde.sdk.model.TokenType
+import java.security.MessageDigest
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.concurrent.thread
@@ -26,10 +27,15 @@ class MainActivity : AppCompatActivity(), SDKListener {
     private lateinit var logoutButton: Button
     private lateinit var statusText: TextView
     private lateinit var countdownText: TextView
+    private lateinit var checkStateButton: Button
+    private lateinit var getUserButton: Button
+    private lateinit var nukeStateButton: Button
+    private lateinit var clearLogButton: Button
     private lateinit var logText: TextView
     private lateinit var scrollView: ScrollView
     
     private var isLoggingOut = false
+    private var hadTokenBefore = false
     private val dateFormat = SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault())
     
     private val handler = Handler(Looper.getMainLooper())
@@ -49,17 +55,18 @@ class MainActivity : AppCompatActivity(), SDKListener {
         logoutButton = findViewById(R.id.logoutButton)
         statusText = findViewById(R.id.statusText)
         countdownText = findViewById(R.id.countdownText)
+        checkStateButton = findViewById(R.id.checkStateButton)
+        getUserButton = findViewById(R.id.getUserButton)
+        nukeStateButton = findViewById(R.id.nukeStateButton)
+        clearLogButton = findViewById(R.id.clearLogButton)
         logText = findViewById(R.id.logText)
         scrollView = findViewById(R.id.scrollView)
 
-        // Get initial domain for SDK initialization (required before STARTED state)
-        val initialDomain = domainInput.text.toString().trim().ifEmpty { "placeholder.kinde.com" }
-        
         // Initialize SDK in onCreate (required for ActivityResultLauncher registration)
         kindeSDK = KindeSDK(
             activity = this,
-            loginRedirect = "kinde.sdk://$initialDomain",
-            logoutRedirect = "kinde.sdk://$initialDomain",
+            loginRedirect = "kinde.sdk://koman.kinde.com",
+            logoutRedirect = "kinde.sdk://koman.kinde.com",
             sdkListener = this
         )
 
@@ -73,7 +80,7 @@ class MainActivity : AppCompatActivity(), SDKListener {
                 return@setOnClickListener
             }
             
-            logMessage("Login button clicked")
+            logSeparator("LOGIN")
             logMessage("Domain: $domain")
             logMessage("Client ID: $clientId")
             
@@ -81,22 +88,31 @@ class MainActivity : AppCompatActivity(), SDKListener {
             domainInput.isEnabled = false
             clientIdInput.isEnabled = false
             
-            // Pass domain and clientId to login method (overrides defaults)
-            kindeSDK.login(GrantType.PKCE, domain = domain, clientId = clientId)
+            // Login with PKCE grant type
+            kindeSDK.login(GrantType.PKCE)
         }
 
         logoutButton.setOnClickListener {
+            logSeparator("LOGOUT")
             logMessage("Logout button clicked")
             stopPolling()
             kindeSDK.logout()
         }
 
+        checkStateButton.setOnClickListener { checkState() }
+        getUserButton.setOnClickListener { callGetUser() }
+        nukeStateButton.setOnClickListener { nukeState() }
+        clearLogButton.setOnClickListener {
+            logText.text = ""
+            logMessage("Log cleared")
+        }
+
         updateUI()
         logMessage("App started")
-        logMessage("SDK initialized with domain: $initialDomain")
+        logMessage("SDK initialized with domain: koman.kinde.com")
     }
 
-    override fun onNewIntent(intent: Intent?) {
+    override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         logMessage("onNewIntent called")
     }
@@ -108,12 +124,14 @@ class MainActivity : AppCompatActivity(), SDKListener {
                 return@runOnUiThread
             }
             
+            val kind = if (hadTokenBefore) "REFRESH" else "INITIAL"
+            hadTokenBefore = true
             val tokenEnd = if (token.length >= 30) token.substring(token.length - 30) else token
-            logMessage("✓ TOKEN RECEIVED - Token (last 30): ...$tokenEnd")
+            logSeparator("TOKEN ($kind)")
+            logMessage("Token (last 30): ...$tokenEnd")
             displayTokenInfo()
             updateUI()
             
-            // Start polling if authenticated and not already polling
             if (kindeSDK.isAuthenticated() && pollingRunnable == null) {
                 startPolling()
             }
@@ -122,14 +140,13 @@ class MainActivity : AppCompatActivity(), SDKListener {
 
     override fun onLogout() {
         runOnUiThread {
-            logMessage("✓ User logged out")
+            logSeparator("LOGGED OUT")
+            hadTokenBefore = false
             stopPolling()
             if (::kindeSDK.isInitialized && !isLoggingOut) {
                 isLoggingOut = true
-                // Re-enable input fields after logout
                 domainInput.isEnabled = true
                 clientIdInput.isEnabled = true
-                // Force UI to logged-out state
                 loginButton.isEnabled = true
                 logoutButton.isEnabled = false
                 statusText.text = "Status: Not Authenticated"
@@ -141,9 +158,25 @@ class MainActivity : AppCompatActivity(), SDKListener {
 
     override fun onException(exception: Exception) {
         runOnUiThread {
-            logMessage("✗ Exception: ${exception.message}")
+            logMessage("✗ ${exception.javaClass.simpleName}: ${exception.message}")
             Log.e(TAG, "SDK Exception", exception)
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (::kindeSDK.isInitialized) {
+            val isAuth = kindeSDK.isAuthenticated()
+            logMessage("onResume - isAuthenticated: $isAuth")
+            if (isAuth) {
+                displayTokenInfo()
+            }
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        logMessage("onPause - app going to background")
     }
 
     private fun updateUI() {
@@ -238,6 +271,10 @@ class MainActivity : AppCompatActivity(), SDKListener {
     
     private fun displayTokenInfo() {
         try {
+            // Log the audience claim to verify au.kinde.audience is honored in the access token.
+            val audClaim = kindeSDK.getClaim("aud", TokenType.ACCESS_TOKEN)
+            logMessage("aud claim: ${audClaim.value ?: "<none>"}")
+
             // Get token expiration
             val expClaim = kindeSDK.getClaim("exp", TokenType.ACCESS_TOKEN)
             if (expClaim.value != null) {
@@ -270,6 +307,48 @@ class MainActivity : AppCompatActivity(), SDKListener {
             logMessage("Error getting token info: ${e.message}")
             Log.e(TAG, "Error getting token info", e)
         }
+    }
+
+    private fun checkState() {
+        logSeparator("CHECK STATE")
+        kindeSDK.refreshState()
+        val isAuth = kindeSDK.isAuthenticated()
+        val accessToken = kindeSDK.getToken(TokenType.ACCESS_TOKEN)
+        val refreshToken = kindeSDK.getRefreshToken()
+        logMessage("isAuthenticated: $isAuth")
+        logMessage("Access token present: ${accessToken != null} (${accessToken?.length ?: 0} chars)")
+        logMessage("Refresh token present: ${refreshToken != null} (${refreshToken?.length ?: 0} chars)")
+        if (isAuth) {
+            displayTokenInfo()
+        }
+        updateUI()
+    }
+
+    private fun nukeState() {
+        logSeparator("NUKE STATE")
+        val domain = domainInput.text.toString().trim().ifEmpty { "koman.kinde.com" }
+
+        val digest = MessageDigest.getInstance("SHA-256")
+        val hashBytes = digest.digest(domain.toByteArray(Charsets.UTF_8))
+        val hash = hashBytes.joinToString("") { "%02x".format(it) }
+        val prefsName = "app_prefs_secure_$hash"
+
+        logMessage("Clearing auth_state from: $prefsName")
+        val prefs = getSharedPreferences(prefsName, MODE_PRIVATE)
+        val hadState = prefs.contains("auth_state")
+        prefs.edit().remove("auth_state").apply()
+        logMessage("auth_state removed: $hadState (JWKS keys preserved)")
+
+        kindeSDK.refreshState()
+        val isAuth = kindeSDK.isAuthenticated()
+        logMessage("isAuthenticated after nuke: $isAuth")
+        logMessage("Try 'Get User' or 'Check State' to observe SDK behavior")
+        updateUI()
+    }
+
+    private fun logSeparator(label: String) {
+        val line = "═".repeat(20)
+        logMessage("$line $label $line")
     }
 
     private fun logMessage(message: String) {
